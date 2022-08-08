@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^2.9.12"
+  },
+  "packageManager": "pnpm@7.6.0"
+}
