@@ -1,0 +1,8 @@
+<svg width="85.602mm" height="85.763mm" version="1.1" viewBox="0 0 85.602 85.763" xmlns="http://www.w3.org/2000/svg">
+ <circle transform="rotate(-90)" cx="-42.881" cy="42.801" r="25.6" fill="#000005" opacity=".99" stroke-width="1.0403" style="paint-order:normal"/>
+ <g fill="none" stroke="#000" stroke-dashoffset="66.527" stroke-linejoin="round" stroke-width="6.6527">
+  <path transform="rotate(-85)" d="m0.64275 46.362a39.556 39.556 0 0 1-14.13 30.302 39.556 39.556 0 0 1-32.295 8.6534" style="paint-order:normal"/>
+  <path transform="rotate(35)" d="m99.164 10.519a39.556 39.556 0 0 1-14.13 30.302 39.556 39.556 0 0 1-32.295 8.6534" style="paint-order:normal"/>
+  <path transform="rotate(155)" d="m18.862-56.881a39.556 39.556 0 0 1-14.13 30.302 39.556 39.556 0 0 1-32.295 8.6534" style="paint-order:normal"/>
+ </g>
+</svg>
