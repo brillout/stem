@@ -78,7 +78,7 @@ const components = {
     isRequired: true,
   },
   communication: {
-    name: 'Frontend <-> Backend',
+    name: 'API',
     choices: ['telefunc' as const, 'relay' as const],
   },
   backend: {
@@ -219,7 +219,7 @@ function Link({ url }: { url: string }) {
 function GeneratedCommand({ selection }: { selection: Selection }) {
   return (
     <div>
-      <code>$ npm init stem {selection.choices.map((choiceId) => `--${choiceId}`).join(' ')}</code>
+      <code className="big">$ npm init stem {selection.choices.map((choiceId) => `--${choiceId}`).join(' ')}</code>
     </div>
   )
 }

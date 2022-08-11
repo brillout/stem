@@ -1,6 +1,11 @@
 code {
   font-family: monospace;
-  background-color: #eaeaea;
+  background-color: #f3f3f3;
+  padding: 3px 7px;
+  font-size: 1.1em;
+  border-radius: 4px;
+}
+code.big {
   padding: 10px 20px;
   font-size: 1.2em;
   border-radius: 4px;
