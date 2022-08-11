@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="header">
-      <h1 id="title"><img height=96 src="./assets/stem-with-text.svg" /></h1>
+      <h1 id="title"><img height="96" src="./assets/stem-with-text.svg" /></h1>
     </div>
 
     <div style="text-align: center; font-size: 1.65em">Next Generation Framework</div>
@@ -25,73 +25,62 @@
     <div id="main">
       <h2>Launch. Today.</h2>
       <p>Choose your stack, run <code>$ npm create stem</code>, and start deploying to production. Today.</p>
-      <p>
-        Getting started has never been easier.
-      </p>
+      <p>Getting started has never been easier.</p>
 
       <h2 id="scalable">Yet, it is flexible.</h2>
-      <p>Frameworks are rigid: after a certain point, as you scale, you end up spending more time fighting the framework than the time it saved you.</p>
-      <p>Stem is different: integrations are ejactable</p>
       <p>
-        For example, if you eject <code>stem-nodemailer</code> then you have full control over the emailing integration.
+        Traditional frameworks are rigid. After a certain point, as you scale, you end up spending more time fighting
+        the framework than the time it saved you.
+      </p>
+      <p>Stem is different because integrations are ejectable.</p>
+      <p>
+        For example, if you eject <code>stem-nodemailer</code> then you have full control over the email integration.
+        You can even eject <code>stem-react</code> and completely control how React is integrated with the rest of your
+        stack. At that point, you can replace React with Vue.
       </p>
       <p>
-        You can even eject <code>stem-react</code> to completely control how React is integrated with the rest
-        of your stack.
+        As your project scales, and the need for custom integration arises, you eject the integrations you need to
+        control.
       </p>
-      <p>As your project scales, and the need for custom integration arises, you eject the integrations
-        you need to control.</p>
       <p>
-        The best part is that integrations are only few lines of code:
+        We keep integrations simple with only a few lines of code. For example,
+        <code>$ npm run eject stem-nodemailer</code> adds only <code>152</code> lines of code to your source code, and
+        <code>$ npm run eject stem-react</code> only adds <code>384</code> lines.
       </p>
-      <ul>
-        <li>
-          <code>$ npm run eject stem-nodemailer</code> adds only <code>152</code> lines of code to your source code.
-        </li>
-        <li>
-          <code>$ npm run eject stem-react</code> adds only <code>384</code> lines of code to your source code.
-        </li>
-      </ul>
-
 
       <h2 id="flexiblity-without-compromise">Truly flexible</h2>
       <p>
         Stem is only a collection of integrations: if you eject all of your
-        <code>stem-*</code> packages, then you completely remove Stem. At that point, you are left with
-        do-one-thing-do-it-well tools and have full control over how these tools integrate with each other.
+        <code>stem-*</code> packages, then you completely remove Stem, and you are left with do-one-thing-do-it-well
+        tools with full control over how they integrate with each other.
       </p>
-      <p>
-        With Stem, you can get all the control you need. Without compromise.
-      </p>
-
+      <p>With Stem, you can get all the control you need. Without compromise.</p>
 
       <h2 id="zero-magic">No magic</h2>
       <p>Stem may seem magical &mdash; it isn&#39;t.</p>
+      <p>Integrations use a set of open standards enabling interoperability.</p>
       <p>
-        Integrations use a set of open standards enabling interoperability.
-      </p>
-      <p>
-        That&#39;s why,
-        for example, you can replace <code>stem-sqlite</code> with <code>stem-postgresql</code> in a seamless fashion:
-        your other Stem integraions work just like before. (For example, Stem authentication integrations such as
-        <code>stem-nextauth</code> communicate with the database using standarized CRUD database-agnostic operations.)
+        That&#39;s why, for example, you can replace <code>stem-sqlite</code> with <code>stem-postgresql</code> in a
+        seamless way: your other integrations, such as your authentication integration, work just like before because
+        they communicate with the database using an open standard that standarizes basic CRUD operations.
       </p>
 
       <h2 id="simplity">Simple</h2>
-      <p>Everything we do is done with meticulous care for simplicity.</p>
+      <p>Everything we do is done with a meticulous care for simplicity.</p>
       <p>
         Stem integrations are simple. Our recommended stacks are simple. Our do-one-thing-do-it-well tools are simple.
       </p>
       <p>If you care about simplicity (and you should!) then you&#39;ll feel right at home.</p>
 
       <h2 id="open">Open</h2>
-      <p>
-        Integrations are based on a open standard: there is no proprietary lock-in.
-      </p>
-      <p>Stem is decentral: each <code>stem-*</code> package can be developed independently of each other.</p>
+      <p>Integrations are based on open standards: there is no proprietary lock-in.</p>
       <p>
         Actually, if you re-publish <code>stem-*</code> packages under another name, then you essentially clone the Stem
         project.
+      </p>
+      <p>
+        Not only that, but Stem is also decentral: each <code>stem-*</code> package can be developed independently of
+        each other.
       </p>
       <p>Stem is, at its core, open and collaborative.</p>
     </div>
