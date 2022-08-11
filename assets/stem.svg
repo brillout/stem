@@ -1,8 +1,0 @@
-<svg width="85.602mm" height="85.763mm" version="1.1" viewBox="0 0 85.602 85.763" xmlns="http://www.w3.org/2000/svg">
- <circle transform="rotate(-90)" cx="-42.881" cy="42.801" r="29.923" fill="#000005" opacity=".99" stroke-width="1.2159" style="paint-order:normal"/>
- <g transform="matrix(.15643 -.98769 -.98769 -.15643 73.632 -41.7)" fill="none" stroke="#000" stroke-dashoffset="66.527" stroke-linejoin="round" stroke-width="6.6527">
-  <path d="m-48.738 17.242a39.556 39.556 0 0 1-16.868 32.402 39.556 39.556 0 0 1-36.217 4.7681" style="paint-order:normal"/>
-  <path transform="rotate(120)" d="m98.635 67.843a39.556 39.556 0 0 1-16.868 32.402 39.556 39.556 0 0 1-36.217 4.7681" style="paint-order:normal"/>
-  <path transform="rotate(240)" d="m68.771-85.086a39.556 39.556 0 0 1-16.868 32.402 39.556 39.556 0 0 1-36.217 4.7681" style="paint-order:normal"/>
- </g>
-</svg>
