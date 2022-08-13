@@ -2,6 +2,7 @@ export { Builder }
 
 import React, { useState } from 'react'
 import { unique, getObjectEntries } from '../utils'
+import './Builder.css'
 
 const subsections = {
   staticHost: {
@@ -16,6 +17,10 @@ const choices = {
   react: {
     name: 'React',
     url: 'https://reactjs.org/',
+  },
+  vue: {
+    name: 'Vue',
+    url: 'https://vuejs.org/',
   },
   telefunc: {
     name: 'Telefunc',
@@ -74,7 +79,10 @@ const warnings = [
 const components = {
   frontend: {
     name: 'Frontend',
-    choices: ['react' as const],
+    choices: [
+      'react' as const,
+      //'vue' as const,
+    ],
     isRequired: true,
   },
   communication: {
@@ -170,9 +178,9 @@ function Components({
   onChoiceChange: (choiceId: ChoiceID) => void
 }) {
   return (
-    <div>
+    <div id="components">
       {getObjectEntries(components).map(([componentId, component]) => (
-        <div key={componentId}>
+        <div id={`component-${componentId}`} key={componentId}>
           <label>
             <input
               type="checkbox"
@@ -219,7 +227,7 @@ function Link({ url }: { url: string }) {
 function GeneratedCommand({ selection }: { selection: Selection }) {
   return (
     <div>
-      <code className="big">$ npm init stem {selection.choices.map((choiceId) => `--${choiceId}`).join(' ')}</code>
+      <code className="big">$ npm create stem {selection.choices.map((choiceId) => `--${choiceId}`).join(' ')}</code>
     </div>
   )
 }

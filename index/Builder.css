@@ -1,0 +1,13 @@
+/*
+#components {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+}
+
+#component-deploy {
+  grid-column: 1 / 3;
+}
+*/
