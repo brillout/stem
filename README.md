@@ -1,1 +1,1 @@
-Source code of [https://vike.land](https://vike.land).
+See [stemjs.com](https://stemjs.com).
