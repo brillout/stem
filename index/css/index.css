@@ -1,10 +1,4 @@
-@import './fonts.css';
 @import './header.css';
-@import './code.css';
-
-body {
-  margin: 0;
-}
 
 #main {
   width: 750px;
@@ -13,18 +7,4 @@ body {
 #main h2 {
   font-weight: 500;
   margin-top: 40px;
-}
-
-#builder label {
-  cursor: pointer;
-}
-
-.seedling::before {
-  content: '\1F331';
-  font-size: 1.1em;
-  font-family: emoji;
-}
-.construction::before {
-  content: '\1F6A7';
-  font-size: 1.1em;
 }
