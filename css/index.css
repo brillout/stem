@@ -1,7 +1,9 @@
 @import './fonts.css';
 @import './code.css';
 @import './icons.css';
+@import './links.css';
 
 body {
   margin: 0;
+  padding-bottom: 100px;
 }

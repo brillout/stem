@@ -1,0 +1,41 @@
+#div-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+.div-integration {
+  border: 1px solid black;
+  padding: 20px 30px;
+  border-radius: 7px;
+  border-color: #eee;
+  /*
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px -20px, rgba(0, 0, 0, 0.1) 0px 10px 15px -10px;
+  */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -10px;
+  /*
+  background-color: #fbfbfb;
+  */
+}
+.div-integration .div-header {
+  display: flex;
+  margin-bottom: 13px;
+}
+.div-integration code {
+  margin-left: 8px;
+  font-size: 1.1em;
+  padding: 5px 7px;
+}
+.div-integration img {
+  width: 28px;
+  height: 28px;
+}
+.div-integration > .div-description {
+  font-size: 0.95em;
+  color: #555;
+}

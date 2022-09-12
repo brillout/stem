@@ -1,10 +1,1 @@
 @import './header.css';
-
-#main {
-  width: 750px;
-  margin: auto;
-}
-#main h2 {
-  font-weight: 500;
-  margin-top: 40px;
-}
