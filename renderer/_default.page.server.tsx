@@ -17,7 +17,7 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
   const page = renderToString(
     <PageShell pageContext={pageContext}>
       <Page {...pageProps} />
-    </PageShell>
+    </PageShell>,
   )
 
   const documentHtml = escapeInject`<!DOCTYPE html>
@@ -37,8 +37,8 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
     // We can return a `pageContext` promise
     pageContext: (async () => {
       return {
-        someAsyncProps: 42
+        someAsyncProps: 42,
       }
-    })()
+    })(),
   }
 }

@@ -33,19 +33,32 @@ const data: IntegrationSpec[] = [
     name: 'stem-react',
     vision: false,
     logoUrl: ReactLogo,
-    description: <><ReactLink/> integration for <Vite/> + <Vps/>.</>
+    description: (
+      <>
+        <ReactLink /> integration for <Vite /> + <Vps />.
+      </>
+    ),
   },
   {
     name: 'stem-vue',
     vision: false,
     logoUrl: VueLogo,
-    description: <><Vue /> integration for <a href="https://vitejs.dev/">Vite</a> + <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>.</>
+    description: (
+      <>
+        <Vue /> integration for <a href="https://vitejs.dev/">Vite</a> +{' '}
+        <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>.
+      </>
+    ),
   },
   {
     name: 'vite-plugin-ssr',
     vision: false,
     logoUrl: VitePluginSsrLogo,
-    description: <>Frontend Framework with <Vps />.</>
+    description: (
+      <>
+        Frontend Framework with <Vps />.
+      </>
+    ),
   },
   {
     name: 'stem-cms',
@@ -119,7 +132,7 @@ const data: IntegrationSpec[] = [
        */
     provides: ['database'],
     logoUrl: PrismaLogo,
-    vision: true
+    vision: true,
   },
   {
     name: 'stem-gmail',
@@ -130,12 +143,16 @@ const data: IntegrationSpec[] = [
       </>
     ),
     provides: ['email'],
-    logoUrl: GmailLogo
+    logoUrl: GmailLogo,
   },
   {
     name: 'telefunc',
     logoUrl: TelefuncLogo,
-    description: <>RPC with <a href="https://telefunc.com/">Telefunc</a>.</>,
-    vision: false
+    description: (
+      <>
+        RPC with <a href="https://telefunc.com/">Telefunc</a>.
+      </>
+    ),
+    vision: false,
   },
 ]
