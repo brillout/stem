@@ -66,7 +66,7 @@ const data = [{
     children: [/* @__PURE__ */ jsx(Vue, {}), " integration for ", /* @__PURE__ */ jsx("a", {
       href: "https://vitejs.dev/",
       children: "Vite"
-    }), " + ", /* @__PURE__ */ jsx("a", {
+    }), " +", " ", /* @__PURE__ */ jsx("a", {
       href: "https://vite-plugin-ssr.com",
       children: "vite-plugin-ssr"
     }), "."]
@@ -135,7 +135,8 @@ const data = [{
     }), "."]
   }),
   provides: ["database"],
-  logoUrl: PrismaLogo
+  logoUrl: PrismaLogo,
+  vision: true
 }, {
   name: "stem-gmail",
   description: /* @__PURE__ */ jsxs(Fragment, {
@@ -150,14 +151,15 @@ const data = [{
   provides: ["email"],
   logoUrl: GmailLogo
 }, {
-  name: "stem-telefunc",
+  name: "telefunc",
   logoUrl: TelefuncLogo,
   description: /* @__PURE__ */ jsxs(Fragment, {
     children: ["RPC with ", /* @__PURE__ */ jsx("a", {
       href: "https://telefunc.com/",
       children: "Telefunc"
     }), "."]
-  })
+  }),
+  vision: false
 }];
 function IntegrationCatalog({
   vision = false
