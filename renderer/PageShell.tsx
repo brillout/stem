@@ -14,7 +14,9 @@ function PageShell({ pageContext, children }: { pageContext: PageContext; childr
       <PageContextProvider pageContext={pageContext}>
         <Header>
           <Logo />
+          {/*
           <Link href="/about">About</Link>
+          */}
         </Header>
         <Content>{children}</Content>
       </PageContextProvider>
@@ -29,7 +31,6 @@ function Header({ children }: { children: React.ReactNode }) {
         width: '100vw',
         display: 'flex',
         alignItems: 'center',
-        border: '2px solid #eee',
       }}
     >
       {children}
@@ -42,11 +43,9 @@ function Content({ children }: { children: React.ReactNode }) {
     <div
       id="page-content"
       style={{
-        padding: 20,
-        paddingBottom: 50,
+        padding: '0 20px',
         display: 'flex',
         justifyContent: 'center',
-        marginTop: 10,
       }}
     >
       <div>{children}</div>
@@ -56,10 +55,10 @@ function Content({ children }: { children: React.ReactNode }) {
 
 function Logo() {
   return (
-    <div style={{ padding: 10 }}>
-      <a href="/">
+    <a href="/">
+      <div style={{ padding: '21px 35px' }}>
         <img src={logoUrl} height={64} width={160} />
-      </a>
-    </div>
+      </div>
+    </a>
   )
 }

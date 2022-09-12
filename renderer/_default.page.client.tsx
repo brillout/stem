@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { PageShell } from './PageShell'
-import { getPageTitle } from './getPageTitle'
 import type { PageContextBuiltInClient } from 'vite-plugin-ssr/client/router'
 import type { PageContext } from './types'
 
@@ -28,7 +27,6 @@ async function render(pageContext: PageContextBuiltInClient & PageContext) {
     }
     root.render(page)
   }
-  document.title = getPageTitle(pageContext)
 }
 
 function onHydrationEnd() {

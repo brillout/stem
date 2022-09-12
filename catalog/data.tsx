@@ -119,6 +119,7 @@ const data: IntegrationSpec[] = [
        */
     provides: ['database'],
     logoUrl: PrismaLogo,
+    vision: true
   },
   {
     name: 'stem-gmail',
@@ -132,8 +133,9 @@ const data: IntegrationSpec[] = [
     logoUrl: GmailLogo
   },
   {
-    name: 'stem-telefunc',
+    name: 'telefunc',
     logoUrl: TelefuncLogo,
-    description: <>RPC with <a href="https://telefunc.com/">Telefunc</a>.</>
+    description: <>RPC with <a href="https://telefunc.com/">Telefunc</a>.</>,
+    vision: false
   },
 ]

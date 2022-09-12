@@ -1,7 +1,6 @@
 import React from 'react'
 import { dangerouslySkipEscape, escapeInject } from 'vite-plugin-ssr'
 import { PageShell } from './PageShell'
-import { getPageTitle } from './getPageTitle'
 import type { PageContext } from './types'
 import type { PageContextBuiltIn } from 'vite-plugin-ssr'
 import { renderToString } from 'react-dom/server'
@@ -21,13 +20,12 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
     </PageShell>
   )
 
-  const title = getPageTitle(pageContext)
-
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html>
       <head>
-        <title>${title}</title>
+        <meta charset="utf-8" />
         <link rel="icon" type="image/svg+xml" href="${logoUrl}" />
+        <title>Stem: Ejectable Integrations</title>
       </head>
       <body>
         <div id="page-view">${dangerouslySkipEscape(page)}</div>
