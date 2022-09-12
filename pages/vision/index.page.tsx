@@ -21,7 +21,7 @@ function LandingView() {
         a WordPress alternative.
       </Tagline>
       <Tagline>
-        At this point, Stem becomes the first framework that is liked by both developers and business users.
+        At this point, Stem is the first framework that is liked by both developers and business users.
       </Tagline>
     </div>
   )
