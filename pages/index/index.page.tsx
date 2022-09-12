@@ -15,7 +15,7 @@ function Page() {
 function LandingView() {
   return (
     <div style={{ textAlign: 'center', marginBottom: 70 }}>
-      <h1 style={{ fontSize: '3em', color: '#0c1b33', margin: 0 }}>Ejectable Integrations</h1>
+      <h1 style={{ fontSize: '3em', color: '#0c1b33', margin: 0 }}>Ejectable Integrations.</h1>
       <Tagline>
         Integrate tools without writing boilerplate code. Eject & customize integration code as the need arises.
       </Tagline>
