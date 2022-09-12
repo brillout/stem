@@ -1,0 +1,181 @@
+{
+  "assets/stem-with-text.svg": {
+    "file": "assets/stem-with-text.ade4913e.svg",
+    "src": "assets/stem-with-text.svg"
+  },
+  "catalog/tool-logos/react.svg": {
+    "file": "assets/react.274eee9a.svg",
+    "src": "catalog/tool-logos/react.svg"
+  },
+  "catalog/tool-logos/react-admin.svg": {
+    "file": "assets/react-admin.60dc15ff.svg",
+    "src": "catalog/tool-logos/react-admin.svg"
+  },
+  "catalog/tool-logos/NextAuth.png": {
+    "file": "assets/NextAuth.c0001ba4.png",
+    "src": "catalog/tool-logos/NextAuth.png"
+  },
+  "catalog/tool-logos/prisma.png": {
+    "file": "assets/prisma.502f639a.png",
+    "src": "catalog/tool-logos/prisma.png"
+  },
+  "catalog/tool-logos/TinaCMS.png": {
+    "file": "assets/TinaCMS.93ab92cb.png",
+    "src": "catalog/tool-logos/TinaCMS.png"
+  },
+  "catalog/tool-logos/vue.svg": {
+    "file": "assets/vue.606c4449.svg",
+    "src": "catalog/tool-logos/vue.svg"
+  },
+  "catalog/tool-logos/vite-plugin-ssr.svg": {
+    "file": "assets/vite-plugin-ssr.5177312a.svg",
+    "src": "catalog/tool-logos/vite-plugin-ssr.svg"
+  },
+  "catalog/tool-logos/gmail.svg": {
+    "file": "assets/gmail.de129dff.svg",
+    "src": "catalog/tool-logos/gmail.svg"
+  },
+  "catalog/tool-logos/telefunc.svg": {
+    "file": "assets/telefunc.6a5581b5.svg",
+    "src": "catalog/tool-logos/telefunc.svg"
+  },
+  "assets/stem.svg": {
+    "file": "assets/stem.89276af2.svg",
+    "src": "assets/stem.svg"
+  },
+  "css/fonts/Mitr-Light.ttf": {
+    "file": "assets/Mitr-Light.d040f22b.ttf",
+    "src": "css/fonts/Mitr-Light.ttf"
+  },
+  "css/fonts/Inter-Var.ttf": {
+    "file": "assets/Inter-Var.2bc54814.ttf",
+    "src": "css/fonts/Inter-Var.ttf"
+  },
+  "renderer/_default.page.client.tsx": {
+    "file": "assets/renderer/_default.page.client.0bb66efe.js",
+    "src": "renderer/_default.page.client.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-76216a9c.js"
+    ],
+    "css": [
+      "assets/index.25779f8a.css"
+    ],
+    "assets": [
+      "assets/stem-with-text.ade4913e.svg"
+    ]
+  },
+  "renderer/_error.page.tsx": {
+    "file": "assets/renderer/_error.page.a92cd078.js",
+    "src": "renderer/_error.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-76216a9c.js"
+    ]
+  },
+  "pages/about/index.page.tsx": {
+    "file": "assets/pages/about/index.page.219dac3a.js",
+    "src": "pages/about/index.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-76216a9c.js"
+    ]
+  },
+  "pages/index/index.page.tsx": {
+    "file": "assets/pages/index/index.page.9bc27542.js",
+    "src": "pages/index/index.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-bf708f74.js",
+      "_chunk-76216a9c.js"
+    ]
+  },
+  "pages/vision/index.page.tsx": {
+    "file": "assets/pages/vision/index.page.f270abac.js",
+    "src": "pages/vision/index.page.tsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-bf708f74.js",
+      "_chunk-76216a9c.js"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "file": "assets/entry-client-routing.cadbf146.js",
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-14b98afd.js"
+    ],
+    "dynamicImports": [
+      "pages/about/index.page.tsx",
+      "pages/index/index.page.tsx",
+      "pages/vision/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx",
+      "renderer/_default.page.server.tsx?extractStyles&lang.tsx"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "file": "assets/entry-server-routing.a6cfad48.js",
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-14b98afd.js"
+    ],
+    "dynamicImports": [
+      "pages/about/index.page.tsx",
+      "pages/index/index.page.tsx",
+      "pages/vision/index.page.tsx",
+      "renderer/_error.page.tsx",
+      "renderer/_default.page.client.tsx",
+      "renderer/_default.page.server.tsx?extractStyles&lang.tsx"
+    ]
+  },
+  "_chunk-76216a9c.js": {
+    "file": "assets/chunk-76216a9c.js"
+  },
+  "_chunk-bf708f74.js": {
+    "file": "assets/chunk-bf708f74.js",
+    "imports": [
+      "_chunk-76216a9c.js"
+    ],
+    "css": [
+      "assets/IntegrationCatalog.9a513dc5.css"
+    ],
+    "assets": [
+      "assets/react.274eee9a.svg",
+      "assets/react-admin.60dc15ff.svg",
+      "assets/NextAuth.c0001ba4.png",
+      "assets/prisma.502f639a.png",
+      "assets/TinaCMS.93ab92cb.png",
+      "assets/vue.606c4449.svg",
+      "assets/vite-plugin-ssr.5177312a.svg",
+      "assets/gmail.de129dff.svg",
+      "assets/telefunc.6a5581b5.svg"
+    ]
+  },
+  "_chunk-14b98afd.js": {
+    "file": "assets/chunk-14b98afd.js"
+  },
+  "renderer/_default.page.server.tsx?extractStyles&lang.tsx": {
+    "file": "assets/chunk-2a62846f.js",
+    "src": "renderer/_default.page.server.tsx?extractStyles&lang.tsx",
+    "isDynamicEntry": true,
+    "css": [
+      "assets/index.25779f8a.css"
+    ]
+  },
+  "index.css": {
+    "file": "assets/index.25779f8a.css",
+    "src": "index.css"
+  },
+  "IntegrationCatalog.css": {
+    "file": "assets/IntegrationCatalog.9a513dc5.css",
+    "src": "IntegrationCatalog.css"
+  }
+}
