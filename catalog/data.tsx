@@ -94,7 +94,7 @@ const data: IntegrationSpec[] = [
     name: 'stem-react-admin',
     description: (
       <>
-        Admin Panel with <a href="https://marmelab.com/react-admin/">react-adming</a>.
+        Admin Panel with <a href="https://marmelab.com/react-admin/">react-admin</a>.
       </>
     ),
     provides: ['auth'],
