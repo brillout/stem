@@ -5,7 +5,7 @@ import { IntegrationCatalog } from '../../catalog/IntegrationCatalog'
 
 function Page() {
   return (
-    <div style={{ maxWidth: 880 }}>
+    <div style={{ maxWidth: 880 }} id="vision-page">
       <Header />
       <Body />
     </div>
@@ -17,7 +17,7 @@ function Header() {
     <div style={{ textAlign: 'center', marginBottom: 70 }}>
       <h1 style={{ fontSize: '3em', color: '#0c1b33', margin: 0 }}>Stem's Vision</h1>
       <p style={{ fontSize: '1.4em', color: '#0c1b33dd', margin: '15px auto' }}>
-        Progressively become a WordPress alternative
+        To progressively become a WordPress alternative.
       </p>
     </div>
   )
@@ -26,48 +26,53 @@ function Header() {
 function Body() {
   return (
     <div style={{ fontSize: '1.1em', color: '#0c1b33dd' }}>
-      <h2>Plan</h2>
+      <h2>Long-term goal</h2>
       <p>
-        As the number of <a href="/">Stem Integrations</a> grows, WordPress use cases are increasingly covered.
+        As the number of <a href="/">Stem Integrations</a> grows, Stem increasingly covers WordPress use cases.
       </p>
 
       <h2 id="special">What makes Stem special</h2>
       <p>
-        Stem's edge over WordPress is that Stem is liked not only by business users, but also by highly-technical
-        developers. (Whereas WordPress is disliked by technical folks.)
+        Stem's edge over WordPress is that Stem is liked not only by business users but also developers. (Whereas
+        WordPress is disliked and not widely used by developers.)
       </p>
       <p>
-        These highly-technical developers develop high-quality Stem Integrations, leading to a highly-quality Stem
-        marketplace.
+        Stem's foundation (<a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a> and{' '}
+        <a href="https://telefunc.com">Telefunc</a>) is tailored for and liked by highly-technical developers.
+        Attracting them is important for fostering high-quality Stem Integrations developed by the community, leading to
+        a highly-quality marketplace.
       </p>
-      <p>The more the Stem Marketplace grows, the more we win market shares.</p>
 
       <h2>Example</h2>
       <p>
-        For example, the following Stem Integrations cover a WordPress setup consisting of CMS + e-commerce
-        (authentication, payment, emailing, etc.).
+        The following Stem Integrations cover the WordPress use case of setting up a e-commerce website (authentication,
+        payment, emailing, CMS, etc.).
       </p>
       <IntegrationCatalog vision={true} />
 
       <h2>Money</h2>
-      <p>Users pay for premium Stem Integrations while the Stem PLatform takes a 30% cut.</p>
+      <p>Users pay for premium Stem Integrations while the Stem Platform takes a 30% cut.</p>
       <p>
         Yearly revenue of WooCommerce's marketplace alone (subset of WordPress plugins): <code>$85mil</code>.
       </p>
       <p>
-        Automaticc (company owning WordPress) valuation: <code>$7.2bn</code>.
+        Automattic valuation (company owning WordPress): <code>$7.2bn</code>.
       </p>
 
-      <h2>Pragmatic Plan</h2>
+      <h2>Pragmatic</h2>
       <p>
-        We don't suffer the chicken-and-egg problem: today, there isn't any WordPress-like platform tailored for
-        developers: developers still stich tools manually and if they want tools to automatically integration with each
-        other like WordPress, then their only option currently is Stem (as said above in{' '}
-        <a href="#special">What makes Stem special</a>, developers don't like and don't use WordPress).
+        We don't suffer the chicken-and-egg problem because there isn't any WordPress-like platform tailored for
+        (highly-technical) developers: today, developers still stich tools manually and if they want automatic
+        integrations like WordPress then their only option is Stem (as said <a href="#special">above</a>, developers
+        don't like/use WordPress).
       </p>
       <p>
-        We progressivley add and extend Stem integrations as we see fit, while focusing on use cases that bring money
-        quickly (so far we think this is UI themes), enabling us to be profitable or further raise funds ASAP.
+        In a nutshell: there is a unique opportunity to build a "low-code platform" for developers &mdash; and we take
+        it.
+      </p>
+      <p>
+        We progressivley add/extend Stem Integrations while focusing on use cases that bring money ASAP (e.g. UI
+        themes), enabling us to be profitable or further raise funds quickly.
       </p>
     </div>
   )

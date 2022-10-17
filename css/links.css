@@ -2,8 +2,12 @@ a {
   color: inherit;
 }
 
-a {
+#div-catalog a {
   text-decoration-color: #888;
-  font-weight: 550;
-  color: #666;
+}
+
+#vision-page p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #359dfa;
 }
