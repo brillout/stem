@@ -60,7 +60,7 @@
       "_chunk-76216a9c.js"
     ],
     "css": [
-      "assets/index.85c27057.css"
+      "assets/index.6c9914cd.css"
     ],
     "assets": [
       "assets/stem-with-text.ade4913e.svg"
@@ -85,27 +85,27 @@
     ]
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/pages/index/index.page.7770fa01.js",
+    "file": "assets/pages/index/index.page.33eb3cf0.js",
     "src": "pages/index/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-747699ad.js",
+      "_chunk-20f9f456.js",
       "_chunk-76216a9c.js"
     ]
   },
   "pages/vision/index.page.tsx": {
-    "file": "assets/pages/vision/index.page.841c6ba7.js",
+    "file": "assets/pages/vision/index.page.e9e06867.js",
     "src": "pages/vision/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-747699ad.js",
+      "_chunk-20f9f456.js",
       "_chunk-76216a9c.js"
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.9098896f.js",
+    "file": "assets/entry-client-routing.8c4e53c1.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -121,7 +121,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.c75bcd6e.js",
+    "file": "assets/entry-server-routing.5753144b.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
@@ -139,8 +139,8 @@
   "_chunk-76216a9c.js": {
     "file": "assets/chunk-76216a9c.js"
   },
-  "_chunk-747699ad.js": {
-    "file": "assets/chunk-747699ad.js",
+  "_chunk-20f9f456.js": {
+    "file": "assets/chunk-20f9f456.js",
     "imports": [
       "_chunk-76216a9c.js"
     ],
@@ -167,11 +167,11 @@
     "src": "renderer/_default.page.server.tsx?extractStyles&lang.tsx",
     "isDynamicEntry": true,
     "css": [
-      "assets/index.85c27057.css"
+      "assets/index.6c9914cd.css"
     ]
   },
   "index.css": {
-    "file": "assets/index.85c27057.css",
+    "file": "assets/index.6c9914cd.css",
     "src": "index.css"
   },
   "IntegrationCatalog.css": {
