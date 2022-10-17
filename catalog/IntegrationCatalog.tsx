@@ -15,8 +15,8 @@ function IntegrationCatalog({ vision = false }: { vision?: boolean }) {
           }
           return integrationSpec.vision === vision
         })
-        .map((integrationSpec) => (
-          <Integration integrationSpec={integrationSpec} />
+        .map((integrationSpec, i) => (
+          <Integration key={i} integrationSpec={integrationSpec} />
         ))}
     </div>
   )
