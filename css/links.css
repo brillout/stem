@@ -9,5 +9,25 @@ a {
 #vision-page p a {
   text-decoration: none;
   font-weight: 600;
-  color: #359dfa;
+  --link-color: #359dfa;
+  color: var(--link-color);
+}
+
+/* Underline Animation */
+a {
+  position: relative;
+}
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -0.15em;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--link-color);
+  transition: width 300ms ease-in-out;
+}
+a:hover::after,
+a:focus::after {
+  width: 100%;
 }

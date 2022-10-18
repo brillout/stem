@@ -2,6 +2,7 @@ export { Page }
 
 import React from 'react'
 import { IntegrationList } from '../../catalog/IntegrationList'
+import TwitterLogo from '../../catalog/logos/twitter.svg'
 
 const VpsLink = () => <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>
 const ViteLink = () => <a href="https://vitejs.dev/">Vite</a>
@@ -79,7 +80,12 @@ function Body() {
       </p>
       <h2>It's only the beginning</h2>
       <p>
-        Stay tuned for a lot more Stem Integrations. Reach out to if you have question.
+        Stay tuned for a lot more Stem Integrations. Reach out to{' '}
+        <a href="brillout">
+          <img src={TwitterLogo} style={{ height: 18, verticalAlign: 'middle', position: 'relative', right: -1 }} />{' '}
+          brillout
+        </a>{' '}
+        if you have questions.
       </p>
     </div>
   )

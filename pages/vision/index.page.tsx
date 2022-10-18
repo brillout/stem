@@ -63,7 +63,7 @@ function Body() {
         Automattic valuation (company owning WordPress): <code>$7.2bn</code>.
       </p>
 
-      <h2>Pragmatic</h2>
+      <h2>Pragmatic plan</h2>
       <p>
         We don't suffer the chicken-and-egg problem because there isn't any WordPress-like platform tailored for
         (highly-technical) developers: today, developers still stich tools manually and if they want automatic
