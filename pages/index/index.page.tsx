@@ -20,7 +20,7 @@ function Page() {
 function Header() {
   return (
     <>
-      <div style={{ textAlign: 'center', marginBottom: 40 }}>
+      <div style={{ textAlign: 'center', marginBottom: 40, marginTop: 10 }}>
         <h1 style={{ fontSize: '3em', margin: 0 }}>Ejectable Integrations.</h1>
         <div style={{ fontSize: '1.4em', margin: '15px auto', maxWidth: 700 }}>
           Integrate tools without writing boilerplate code. Eject
@@ -39,15 +39,14 @@ function Header() {
 function Body() {
   return (
     <div style={{ fontSize: '1.1em', color: '#0c1b33dd' }}>
-      <h2>Basic example: Next.js alternative</h2>
+      <h2>Basic example: Next.js-like</h2>
       <p>
-        By using <code>stem-vite</code> wich includes Vite and vite-plugin-ssr we can a <b>Next.js like stack</b> that
-        consists of:
+        By using <code>stem-vite</code> with <code>stem-react</code> you get a <b>Next.js-like stack</b> consisting of:
         <ul>
           <li>
             React Frontend powered by <ViteLink /> and <VpsLink />.
           </li>
-          <li>Node.js backend (including Server-Side Rendering)</li>
+          <li>Node.js backend with Server-Side Rendering.</li>
         </ul>
       </p>
       <IntegrationList integrations={['stem-vite', 'stem-react']} />
@@ -56,8 +55,9 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-vue']} />
       <p>
-        You can even <b>eject</b> <code>stem-react</code> / <code>stem-vue</code> and gain full control over how Vite
-        integrates with React/Vue. At that point you can use any UI framework you want (Svelte, Preact, Solid, ...).
+        If you want/need to <b>you can eject</b> <code>stem-react</code>/<code>stem-vue</code> and gain{' '}
+        <b>full control</b> over how Vite integrates with React/Vue. You can then even replace React/Vue with any UI
+        framework you want (Svelte, Preact, Solid, ...).
       </p>
       <h2>Example: authentication</h2>
       <p>
@@ -66,22 +66,22 @@ function Body() {
       <IntegrationList integrations={['stem-nextauth']} />
       <p>
         You have <b>zero boilerplate code</b> to write: it just works. That said, you'll have to also install{' '}
-        <code>stem-prisma</code> (so that <code>stem-nextauth</code> can talk to your database),{' '}
-        <code>stem-telefunc</code> (so that <code>stem-nextauth</code>'s frontend can talk to the backend), and{' '}
-        <code>stem-gmail</code> (so that <code>stem-nextauth</code> can send emails).
+        <code>stem-prisma</code> (enabling <code>stem-nextauth</code> to talk to your database),{' '}
+        <code>stem-telefunc</code> (enabling <code>stem-nextauth</code>'s frontend to talk to the backend), and{' '}
+        <code>stem-gmail</code> (enabling <code>stem-nextauth</code> to send emails).
       </p>
       <IntegrationList integrations={['stem-prisma', 'stem-telefunc', 'stem-gmail']} />
       <p>
-        These <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
+        All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
       </p>
       <p>
-        This allows you to <b>quickly get started with a fully functional app</b>. As you scale, if you need special
+        Stem enables you to <b>quickly get started with a fully functional app</b>. As you scale, if you need special
         needs, <b>you can eject and take control over integration code</b>.
       </p>
       <h2>It's only the beginning</h2>
       <p>
-        Stay tuned for a lot more Stem Integrations. Reach out to{' '}
-        <a href="brillout">
+        Stay tuned for more Stem Integrations. Reach out to{' '}
+        <a href="https://twitter.com/brillout">
           <img src={TwitterLogo} style={{ height: 18, verticalAlign: 'middle', position: 'relative', right: -1 }} />{' '}
           brillout
         </a>{' '}

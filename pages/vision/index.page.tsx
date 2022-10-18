@@ -34,7 +34,7 @@ function Body() {
       <h2 id="special">What makes Stem special</h2>
       <p>
         Stem's edge over WordPress is that Stem is liked not only by business users but also developers. (Whereas
-        WordPress is disliked and not widely used by developers.)
+        WordPress is disliked and not used by developers.)
       </p>
       <p>
         Stem's foundation (<a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a> and{' '}
@@ -45,8 +45,8 @@ function Body() {
 
       <h2>Example</h2>
       <p>
-        The following Stem Integrations cover the WordPress use case of setting up a e-commerce website (authentication,
-        payment, emailing, CMS, etc.).
+        The following Stem Integrations cover the typical WordPress use case of setting up an e-commerce website
+        (authentication, payment, emailing, and CMS).
       </p>
       <div style={{ fontSize: '1rem' }}>
         <IntegrationList
