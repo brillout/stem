@@ -1,43 +1,51 @@
 {
+  "catalog/logos/twitter.svg": {
+    "file": "assets/twitter.4b05d518.svg",
+    "src": "catalog/logos/twitter.svg"
+  },
   "assets/stem-with-text.svg": {
     "file": "assets/stem-with-text.ade4913e.svg",
     "src": "assets/stem-with-text.svg"
   },
-  "catalog/tool-logos/react.svg": {
+  "catalog/logos/react.svg": {
     "file": "assets/react.274eee9a.svg",
-    "src": "catalog/tool-logos/react.svg"
+    "src": "catalog/logos/react.svg"
   },
-  "catalog/tool-logos/react-admin.svg": {
+  "catalog/logos/react-admin.svg": {
     "file": "assets/react-admin.60dc15ff.svg",
-    "src": "catalog/tool-logos/react-admin.svg"
+    "src": "catalog/logos/react-admin.svg"
   },
-  "catalog/tool-logos/NextAuth.png": {
+  "catalog/logos/NextAuth.png": {
     "file": "assets/NextAuth.c0001ba4.png",
-    "src": "catalog/tool-logos/NextAuth.png"
+    "src": "catalog/logos/NextAuth.png"
   },
-  "catalog/tool-logos/prisma.png": {
+  "catalog/logos/prisma.png": {
     "file": "assets/prisma.502f639a.png",
-    "src": "catalog/tool-logos/prisma.png"
+    "src": "catalog/logos/prisma.png"
   },
-  "catalog/tool-logos/TinaCMS.png": {
+  "catalog/logos/TinaCMS.png": {
     "file": "assets/TinaCMS.93ab92cb.png",
-    "src": "catalog/tool-logos/TinaCMS.png"
+    "src": "catalog/logos/TinaCMS.png"
   },
-  "catalog/tool-logos/vue.svg": {
+  "catalog/logos/vue.svg": {
     "file": "assets/vue.606c4449.svg",
-    "src": "catalog/tool-logos/vue.svg"
+    "src": "catalog/logos/vue.svg"
   },
-  "catalog/tool-logos/vite-plugin-ssr.svg": {
+  "catalog/logos/vite-plugin-ssr.svg": {
     "file": "assets/vite-plugin-ssr.5177312a.svg",
-    "src": "catalog/tool-logos/vite-plugin-ssr.svg"
+    "src": "catalog/logos/vite-plugin-ssr.svg"
   },
-  "catalog/tool-logos/gmail.svg": {
+  "catalog/logos/gmail.svg": {
     "file": "assets/gmail.de129dff.svg",
-    "src": "catalog/tool-logos/gmail.svg"
+    "src": "catalog/logos/gmail.svg"
   },
-  "catalog/tool-logos/telefunc.svg": {
+  "catalog/logos/telefunc.svg": {
     "file": "assets/telefunc.6a5581b5.svg",
-    "src": "catalog/tool-logos/telefunc.svg"
+    "src": "catalog/logos/telefunc.svg"
+  },
+  "catalog/logos/vite.svg": {
+    "file": "assets/vite.17e50649.svg",
+    "src": "catalog/logos/vite.svg"
   },
   "assets/stem.svg": {
     "file": "assets/stem.89276af2.svg",
@@ -60,7 +68,7 @@
       "_chunk-76216a9c.js"
     ],
     "css": [
-      "assets/index.0183efbc.css"
+      "assets/index.ad446609.css"
     ],
     "assets": [
       "assets/stem-with-text.ade4913e.svg"
@@ -85,27 +93,30 @@
     ]
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/pages/index/index.page.33eb3cf0.js",
+    "file": "assets/pages/index/index.page.817ea0f2.js",
     "src": "pages/index/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-20f9f456.js",
+      "_chunk-8ed73307.js",
       "_chunk-76216a9c.js"
+    ],
+    "assets": [
+      "assets/twitter.4b05d518.svg"
     ]
   },
   "pages/vision/index.page.tsx": {
-    "file": "assets/pages/vision/index.page.03dd44fb.js",
+    "file": "assets/pages/vision/index.page.bf6baf50.js",
     "src": "pages/vision/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-20f9f456.js",
+      "_chunk-8ed73307.js",
       "_chunk-76216a9c.js"
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.40323e62.js",
+    "file": "assets/entry-client-routing.9d7855c2.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -121,7 +132,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.6404aba1.js",
+    "file": "assets/entry-server-routing.21a6ce39.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
@@ -139,13 +150,13 @@
   "_chunk-76216a9c.js": {
     "file": "assets/chunk-76216a9c.js"
   },
-  "_chunk-20f9f456.js": {
-    "file": "assets/chunk-20f9f456.js",
+  "_chunk-8ed73307.js": {
+    "file": "assets/chunk-8ed73307.js",
     "imports": [
       "_chunk-76216a9c.js"
     ],
     "css": [
-      "assets/IntegrationCatalog.9a513dc5.css"
+      "assets/IntegrationList.3ad832b2.css"
     ],
     "assets": [
       "assets/react.274eee9a.svg",
@@ -156,7 +167,8 @@
       "assets/vue.606c4449.svg",
       "assets/vite-plugin-ssr.5177312a.svg",
       "assets/gmail.de129dff.svg",
-      "assets/telefunc.6a5581b5.svg"
+      "assets/telefunc.6a5581b5.svg",
+      "assets/vite.17e50649.svg"
     ]
   },
   "_chunk-14b98afd.js": {
@@ -167,15 +179,15 @@
     "src": "renderer/_default.page.server.tsx?extractStyles&lang.tsx",
     "isDynamicEntry": true,
     "css": [
-      "assets/index.0183efbc.css"
+      "assets/index.ad446609.css"
     ]
   },
   "index.css": {
-    "file": "assets/index.0183efbc.css",
+    "file": "assets/index.ad446609.css",
     "src": "index.css"
   },
-  "IntegrationCatalog.css": {
-    "file": "assets/IntegrationCatalog.9a513dc5.css",
-    "src": "IntegrationCatalog.css"
+  "IntegrationList.css": {
+    "file": "assets/IntegrationList.3ad832b2.css",
+    "src": "IntegrationList.css"
   }
 }
