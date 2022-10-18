@@ -26,9 +26,9 @@
   display: flex;
   margin-bottom: 13px;
 }
-.div-integration code {
+.div-integration .div-header code {
   margin-left: 8px;
-  font-size: 1.1em;
+  font-size: 0.93rem;
   padding: 5px 7px;
 }
 .div-integration img {
@@ -36,6 +36,6 @@
   height: 28px;
 }
 .div-integration > .div-description {
-  font-size: 0.95em;
+  font-size: 0.95rem;
   color: #555;
 }

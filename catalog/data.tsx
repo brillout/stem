@@ -2,66 +2,75 @@ export { data }
 export type { IntegrationSpec }
 
 import React from 'react'
-import ReactLogo from './tool-logos/react.svg'
-import ReactAdminLogo from './tool-logos/react-admin.svg'
-import NextAuthLogo from './tool-logos/NextAuth.png'
-import PrismaLogo from './tool-logos/prisma.png'
-import StripeLogo from './tool-logos/stripe.png'
-import TinaCMSLogo from './tool-logos/TinaCMS.png'
-import VueLogo from './tool-logos/vue.svg'
-import VitePluginSsrLogo from './tool-logos/vite-plugin-ssr.svg'
-import GmailLogo from './tool-logos/gmail.svg'
-import TelefuncLogo from './tool-logos/telefunc.svg'
+import ReactLogo from './logos/react.svg'
+import ReactAdminLogo from './logos/react-admin.svg'
+import NextAuthLogo from './logos/NextAuth.png'
+import PrismaLogo from './logos/prisma.png'
+import StripeLogo from './logos/stripe.png'
+import TinaCMSLogo from './logos/TinaCMS.png'
+import VueLogo from './logos/vue.svg'
+import VitePluginSsrLogo from './logos/vite-plugin-ssr.svg'
+import GmailLogo from './logos/gmail.svg'
+import TelefuncLogo from './logos/telefunc.svg'
+import ViteLogo from './logos/vite.svg'
 
 type IntegrationSpec = {
-  name: string
+  name: `stem-${string}`
   description: JSX.Element
   provides?: Connector[]
   requires?: Connector[]
-  vision?: boolean
+  showAtVisionPage?: true
+  showAtLandingPage?: true
   logoUrl: string
 }
 type Connector = 'email' | 'database' | 'renderer' | 'auth' | 'payment'
 
-const Vue = () => <a href="https://vuejs.org/">Vue</a>
+const VueLink = () => <a href="https://vuejs.org/">Vue</a>
 const ReactLink = () => <a href="https://reactjs.org/">React</a>
-const Vps = () => <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>
-const Vite = () => <a href="https://vitejs.dev/">Vite</a>
+const VpsLink = () => <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>
+const ViteLink = () => <a href="https://vitejs.dev/">Vite</a>
 
 const data: IntegrationSpec[] = [
   {
+    name: 'stem-vite',
+    showAtLandingPage: true,
+    logoUrl: ViteLogo,
+    description: (
+      <>
+        Frontend with <ViteLink /> and <VpsLink />.
+      </>
+    ),
+  },
+  {
     name: 'stem-react',
-    vision: false,
+    showAtLandingPage: true,
     logoUrl: ReactLogo,
     description: (
       <>
-        <ReactLink /> integration for <Vite /> + <Vps />.
+        <ReactLink /> integration for <ViteLink />.
       </>
     ),
   },
   {
     name: 'stem-vue',
-    vision: false,
     logoUrl: VueLogo,
     description: (
       <>
-        <Vue /> integration for <a href="https://vitejs.dev/">Vite</a> +{' '}
-        <a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a>.
+        <VueLink /> integration for <ViteLink />.
       </>
     ),
   },
   {
-    name: 'vite-plugin-ssr',
-    vision: false,
+    name: 'stem-vite-plugin-ssr',
     logoUrl: VitePluginSsrLogo,
     description: (
       <>
-        Frontend Framework with <Vps />.
+        Frontend Framework with <VpsLink />.
       </>
     ),
   },
   {
-    name: 'stem-cms',
+    name: 'stem-tina',
     description: (
       <>
         CMS with <a href="https://tina.io/">TinaCMS</a>.
@@ -72,11 +81,11 @@ const data: IntegrationSpec[] = [
         {
         type: 'feature'
         }
-       */
       'CMS',
+       */
     ],
     requires: ['database'],
-    vision: true,
+    showAtVisionPage: true,
     logoUrl: TinaCMSLogo,
   },
   {
@@ -87,7 +96,7 @@ const data: IntegrationSpec[] = [
       </>
     ),
     provides: ['payment'],
-    vision: true,
+    showAtVisionPage: true,
     logoUrl: StripeLogo,
   },
   {
@@ -99,7 +108,7 @@ const data: IntegrationSpec[] = [
     ),
     provides: ['auth'],
     requires: ['email', 'database'],
-    vision: true,
+    showAtVisionPage: true,
     logoUrl: ReactAdminLogo,
   },
   {
@@ -112,12 +121,15 @@ const data: IntegrationSpec[] = [
     provides: ['auth'],
     requires: ['email', 'database'],
     logoUrl: NextAuthLogo,
+    showAtVisionPage: true,
+    showAtLandingPage: true,
   },
   {
     name: 'stem-prisma',
     description: (
+      // <>Provide database access to Stem Integrations with <a href="https://www.prisma.io/">Prisma</a>.</>
       <>
-        Provide database access to Stem Integrations with <a href="https://www.prisma.io/">Prisma</a>.
+        Database access with <a href="https://www.prisma.io/">Prisma</a>.
       </>
     ),
     /*
@@ -132,7 +144,8 @@ const data: IntegrationSpec[] = [
        */
     provides: ['database'],
     logoUrl: PrismaLogo,
-    vision: true,
+    showAtVisionPage: true,
+    showAtLandingPage: true,
   },
   {
     name: 'stem-gmail',
@@ -144,15 +157,17 @@ const data: IntegrationSpec[] = [
     ),
     provides: ['email'],
     logoUrl: GmailLogo,
+    showAtVisionPage: true,
+    showAtLandingPage: true,
   },
   {
-    name: 'telefunc',
+    name: 'stem-telefunc',
     logoUrl: TelefuncLogo,
     description: (
       <>
-        RPC with <a href="https://telefunc.com/">Telefunc</a>.
+        Frontend-Backend communi-cation with <a href="https://telefunc.com/">Telefunc</a>.
       </>
     ),
-    vision: false,
+    showAtLandingPage: true,
   },
 ]

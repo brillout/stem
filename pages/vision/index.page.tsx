@@ -1,7 +1,7 @@
 export { Page }
 
 import React from 'react'
-import { IntegrationCatalog } from '../../catalog/IntegrationCatalog'
+import { IntegrationList } from '../../catalog/IntegrationList'
 
 function Page() {
   return (
@@ -48,7 +48,11 @@ function Body() {
         The following Stem Integrations cover the WordPress use case of setting up a e-commerce website (authentication,
         payment, emailing, CMS, etc.).
       </p>
-      <IntegrationCatalog vision={true} />
+      <div style={{ fontSize: '1rem' }}>
+        <IntegrationList
+          integrations={['stem-tina', 'stem-stripe', 'stem-react-admin', 'stem-nextauth', 'stem-prisma', 'stem-gmail']}
+        />
+      </div>
 
       <h2>Money</h2>
       <p>Users pay for premium Stem Integrations while the Stem Platform takes a 30% cut.</p>

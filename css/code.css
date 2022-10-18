@@ -7,6 +7,9 @@ code {
   padding-bottom: 3px;
   font-size: 1.1em;
   border-radius: 5px;
+  /*
+  white-space: nowrap;
+  */
 }
 code.big {
   padding: 10px 20px;
