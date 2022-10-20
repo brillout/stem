@@ -32,16 +32,25 @@ function Body() {
       </p>
 
       <h2 id="special">What makes Stem special</h2>
-      <p>
-        Stem's edge over WordPress is that Stem is liked not only by business users but also developers. (Whereas
-        WordPress is disliked and not used by developers.)
-      </p>
+      <p>A unique characteristic of Stem is that it's liked not only by business users but also developers.</p>
       <p>
         Stem's foundation (<a href="https://vite-plugin-ssr.com">vite-plugin-ssr</a> and{' '}
-        <a href="https://telefunc.com">Telefunc</a>) is tailored for and liked by highly-technical developers.
-        Attracting them is important for fostering high-quality Stem Integrations developed by the community, leading to
-        a highly-quality marketplace.
+        <a href="https://telefunc.com">Telefunc</a>) is loved by highly-technical developers. Attracting them plays a
+        central role in fostering high-quality Stem Integrations developed by the community.
       </p>
+      <blockquote>
+        <p>
+          <span style={{ fontFamily: 'emoji' }}>{String.fromCodePoint(0x2139) + String.fromCodePoint(0xfe0f)}</span>{' '}
+          Beyond its outdated technological foundation, WordPress is disliked by developers because it's rigid and ties
+          the hands of developers. Stem, in contrast, has been designed from the ground up to be flexible: users can use
+          any JavaScript tool they want and can take control (by <a href="/">ejecting</a>) over how tools integrate with
+          each other.
+        </p>
+        <p>
+          Not only does Stem improves on the no-code experience for business users, but it also enables highly-technical
+          developers to take control (by <a href="/">ejecting</a>).
+        </p>
+      </blockquote>
 
       <h2>Example</h2>
       <p>
@@ -65,18 +74,16 @@ function Body() {
 
       <h2>Pragmatic plan</h2>
       <p>
-        We don't suffer the chicken-and-egg problem because there isn't any WordPress-like platform tailored for
-        (highly-technical) developers: today, developers still stich tools manually and if they want automatic
-        integrations like WordPress then their only option is Stem (as said <a href="#special">above</a>, developers
-        don't like/use WordPress).
+        We don't suffer the chicken-and-egg problem because, other than Stem, there isn't any WordPress-like platform
+        tailored for (highly-technical) developers: today, developers either stich tools manually or use Stem.
       </p>
       <p>
-        In a nutshell: there is a unique opportunity to build a "low-code platform" for developers &mdash; and we take
-        it.
+        In a nutshell: there is a unique opportunity to build a "low-code platform" for developers (while being no-code
+        for business-users).
       </p>
       <p>
-        We progressivley add/extend Stem Integrations while focusing on use cases that bring money ASAP (e.g. UI
-        themes), enabling us to be profitable or further raise funds quickly.
+        We progressivley add/extend Stem Integrations while focusing on use cases that bring money (e.g. UI themes),
+        enabling us to quickly be profitable or raise funds.
       </p>
     </div>
   )

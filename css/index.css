@@ -1,14 +1,7 @@
+@import './global.css';
 @import './fonts.css';
 @import './code.css';
 @import './icons.css';
 @import './links.css';
 @import './headings.css';
-
-body {
-  margin: 0;
-  margin-bottom: 100px;
-  /*
-  padding-bottom: 100px;
-  */
-  color: #0c1b33;
-}
+@import './blockquote.css';

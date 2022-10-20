@@ -39,15 +39,10 @@ function Header() {
 function Body() {
   return (
     <div style={{ fontSize: '1.1em', color: '#0c1b33dd' }}>
-      <h2>Basic example: Next.js-like</h2>
+      <h2>Example: Frontend</h2>
       <p>
-        By using <code>stem-vite</code> with <code>stem-react</code> you get a <b>Next.js-like stack</b> consisting of:
-        <ul>
-          <li>
-            React Frontend powered by <ViteLink /> and <VpsLink />.
-          </li>
-          <li>Node.js backend with Server-Side Rendering.</li>
-        </ul>
+        By using <code>stem-vite</code> with <code>stem-react</code> you get a <b>React Frontend similar to Next.js</b>{' '}
+        powered by <ViteLink /> and <VpsLink />.
       </p>
       <IntegrationList integrations={['stem-vite', 'stem-react']} />
       <p>
@@ -55,9 +50,9 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-vue']} />
       <p>
-        If you want/need to <b>you can eject</b> <code>stem-react</code>/<code>stem-vue</code> and gain{' '}
-        <b>full control</b> over how Vite integrates with React/Vue. You can then even replace React/Vue with any UI
-        framework you want (Svelte, Preact, Solid, ...).
+        Also, <b>you can eject</b> <code>stem-react</code>/<code>stem-vue</code> and gain <b>full control</b> over how
+        Vite integrates with React/Vue. You can then even replace React/Vue with any UI framework you want (Svelte,
+        Preact, Solid, ...).
       </p>
       <h2>Example: authentication</h2>
       <p>
@@ -65,7 +60,7 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-nextauth']} />
       <p>
-        You have <b>zero boilerplate code</b> to write: it just works. That said, you'll have to also install{' '}
+        You have <b>zero boilerplate code</b> to write: it just works. Although you also have to install{' '}
         <code>stem-prisma</code> (enabling <code>stem-nextauth</code> to talk to your database),{' '}
         <code>stem-telefunc</code> (enabling <code>stem-nextauth</code>'s frontend to talk to the backend), and{' '}
         <code>stem-gmail</code> (enabling <code>stem-nextauth</code> to send emails).
@@ -73,6 +68,11 @@ function Body() {
       <IntegrationList integrations={['stem-prisma', 'stem-telefunc', 'stem-gmail']} />
       <p>
         All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
+      </p>
+      <p>
+        The <code>stem-nextauth</code> automatically integrates authentication to your app in a way that works for 95%
+        of users. If it doesn't work for you, then <b>you can eject</b> to take control over the integration code so
+        that you can <b>fully customize your app's authentication implementation</b>.
       </p>
       <p>
         Stem enables you to <b>quickly get started with a fully functional app</b>. As you scale, if you need special
