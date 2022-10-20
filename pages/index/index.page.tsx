@@ -23,9 +23,9 @@ function Header() {
       <div style={{ textAlign: 'center', marginBottom: 40, marginTop: 10 }}>
         <h1 style={{ fontSize: '3em', margin: 0 }}>Ejectable Integrations.</h1>
         <div style={{ fontSize: '1.4em', margin: '15px auto', maxWidth: 700 }}>
-          Integrate tools without writing boilerplate code. Eject
+          Use tools without writing integration code. As the need
           <br />
-          and customize integration code as the need arises.
+          arises, eject integration code for full customizability.
         </div>
         <div style={{ textAlign: 'center', fontSize: '1.1em', margin: 30 }}>
           <span style={{ backgroundColor: '#eee', borderRadius: 10, padding: '10px 20px' }}>
@@ -54,6 +54,10 @@ function Body() {
         Vite integrates with React/Vue. You can then even replace React/Vue with any UI framework you want (Svelte,
         Preact, Solid, ...).
       </p>
+      <blockquote>
+        <p>We explain what "eject" means down below.</p>
+      </blockquote>
+
       <h2>Example: authentication</h2>
       <p>
         You can add authentication to your app simply by installing the <code>stem-nextauth</code> package.
@@ -74,10 +78,30 @@ function Body() {
         vast majority of users. If it doesn't work for you, then you can <b>eject</b> to take control over the
         integration code so that you can <b>fully customize your app's authentication implementation</b>.
       </p>
+      <blockquote>
+        <p>
+          <b>What does eject mean?</b>
+        </p>
+        <p>
+          In this example, with a normal app without Stem, you'd need to write glue code to tell the authentication code
+          how to send emails. We call this kind of boilerplate code "integration code".
+        </p>
+        <p>
+          Stem Integrations (i.e. <code>stem-*</code> packages) contain such "integration code" which are designed to
+          work for the majority of users. But many users need customization; these users can "eject": the integration
+          code is moved from the `stem-*` package to the user's repository and the user has then full control over the
+          integration code.
+        </p>
+        <p>
+          If a user were to eject all its <code>stem-*</code> packages, then the user completely removes Stem. (Although
+          only very few users need to go to that extreme.)
+        </p>
+      </blockquote>
       <p>
         Stem enables you to <b>quickly get started with a fully functional app</b>. As you scale, if you need special
         needs, <b>you can eject and take control over integration code</b>.
       </p>
+
       <h2>It's only the beginning</h2>
       <p>
         Stay tuned for more Stem Integrations. Reach out to{' '}
