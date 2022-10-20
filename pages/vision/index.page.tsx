@@ -73,7 +73,7 @@ function Body() {
       </blockquote>
 
       <h2>Money</h2>
-      <p>Users pay for premium Stem Integrations while the Stem Platform takes a 30% cut.</p>
+      <p>Users pay for premium Stem Integrations on the Stem Marketplace, while Stem takes a 30% cut.</p>
       <p>
         Yearly revenue of WooCommerce's marketplace alone (subset of WordPress plugins): <code>$85mil</code>.
       </p>
@@ -83,12 +83,12 @@ function Body() {
 
       <h2>Pragmatic plan</h2>
       <p>
-        We don't suffer the chicken-and-egg problem because, other than Stem, there isn't any WordPress-like platform
-        tailored for (highly-technical) developers: today, developers either stich tools manually or use Stem.
+        Stem is the first WordPress alternative that is liked and used by (highly-technical) developers. This means that
+        market is won quickly.
       </p>
       <p>
-        In a nutshell: there is a unique opportunity to build a "low-code" platform for developers (while being no-code
-        for business-users).
+        There is a unique opportunity to build, what we call, a low-code platform for developers. (While having no-code
+        extensions for business-users.)
       </p>
       <p>
         We progressivley add/extend Stem Integrations while focusing on use cases that easily bring money (e.g. UI
