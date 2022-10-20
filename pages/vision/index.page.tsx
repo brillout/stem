@@ -67,8 +67,8 @@ function Body() {
           interfaces for business-users.
         </p>
         <p>
-          We believe no-code interfaces should be extensions (instead of being built-in) forstering competition and
-          continuous improvements.
+          We believe no-code interfaces should be extensions available on the Stem Marketplace (instead of being
+          built-in) &mdash; fostering competition and continuous improvements in no-code technology.
         </p>
       </blockquote>
 
