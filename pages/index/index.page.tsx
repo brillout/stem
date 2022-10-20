@@ -50,7 +50,7 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-vue']} />
       <p>
-        Also, <b>you can eject</b> <code>stem-react</code>/<code>stem-vue</code> and gain <b>full control</b> over how
+        You can also <b>eject</b> <code>stem-react</code>/<code>stem-vue</code> <b>and gain full control</b> over how
         Vite integrates with React/Vue. You can then even replace React/Vue with any UI framework you want (Svelte,
         Preact, Solid, ...).
       </p>
@@ -60,7 +60,7 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-nextauth']} />
       <p>
-        You have <b>zero boilerplate code</b> to write: it just works. Although you also have to install{' '}
+        You have <b>zero boilerplate code</b> to write: it just works. Although note that you also have to install{' '}
         <code>stem-prisma</code> (enabling <code>stem-nextauth</code> to talk to your database),{' '}
         <code>stem-telefunc</code> (enabling <code>stem-nextauth</code>'s frontend to talk to the backend), and{' '}
         <code>stem-gmail</code> (enabling <code>stem-nextauth</code> to send emails).
@@ -70,9 +70,9 @@ function Body() {
         All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
       </p>
       <p>
-        The <code>stem-nextauth</code> automatically integrates authentication to your app in a way that works for 95%
-        of users. If it doesn't work for you, then <b>you can eject</b> to take control over the integration code so
-        that you can <b>fully customize your app's authentication implementation</b>.
+        The <code>stem-nextauth</code> automatically integrates authentication to your app in a way that works for the
+        vast majority of users. If it doesn't work for you, then you can <b>eject</b> to take control over the
+        integration code so that you can <b>fully customize your app's authentication implementation</b>.
       </p>
       <p>
         Stem enables you to <b>quickly get started with a fully functional app</b>. As you scale, if you need special

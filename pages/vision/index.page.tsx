@@ -40,15 +40,14 @@ function Body() {
       </p>
       <blockquote>
         <p>
-          <span style={{ fontFamily: 'emoji' }}>{String.fromCodePoint(0x2139) + String.fromCodePoint(0xfe0f)}</span>{' '}
           Beyond its outdated technological foundation, WordPress is disliked by developers because it's rigid and ties
-          the hands of developers. Stem, in contrast, has been designed from the ground up to be flexible: users can use
-          any JavaScript tool they want and can take control (by <a href="/">ejecting</a>) over how tools integrate with
-          each other.
+          the hands of developers. Stem, in contrast, is designed from the ground up to be flexible: users can use any
+          JavaScript tool they want and can take control over how tools integrate with each other (by{' '}
+          <a href="/">ejecting</a>).
         </p>
         <p>
-          Not only does Stem improves on the no-code experience for business users, but it also enables highly-technical
-          developers to take control (by <a href="/">ejecting</a>).
+          Not only does Stem improves the no-code experience for business users, but it also enables highly-technical
+          developers to take over control (by <a href="/">ejecting</a>).
         </p>
       </blockquote>
 
@@ -62,6 +61,16 @@ function Body() {
           integrations={['stem-tina', 'stem-stripe', 'stem-react-admin', 'stem-nextauth', 'stem-prisma', 'stem-gmail']}
         />
       </div>
+      <blockquote>
+        <p>
+          Note how integrations such as <code>stem-tina</code> and <code>stem-react-admin</code> offer no-code
+          interfaces for business-users.
+        </p>
+        <p>
+          We believe no-code interfaces should be extensions (instead of being built-in) forstering competition and
+          continuous improvements.
+        </p>
+      </blockquote>
 
       <h2>Money</h2>
       <p>Users pay for premium Stem Integrations while the Stem Platform takes a 30% cut.</p>
@@ -78,12 +87,12 @@ function Body() {
         tailored for (highly-technical) developers: today, developers either stich tools manually or use Stem.
       </p>
       <p>
-        In a nutshell: there is a unique opportunity to build a "low-code platform" for developers (while being no-code
+        In a nutshell: there is a unique opportunity to build a "low-code" platform for developers (while being no-code
         for business-users).
       </p>
       <p>
-        We progressivley add/extend Stem Integrations while focusing on use cases that bring money (e.g. UI themes),
-        enabling us to quickly be profitable or raise funds.
+        We progressivley add/extend Stem Integrations while focusing on use cases that easily bring money (e.g. UI
+        themes), enabling us to quickly be profitable or raise funds.
       </p>
     </div>
   )
