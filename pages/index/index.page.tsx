@@ -74,9 +74,9 @@ function Body() {
         All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
       </p>
       <p>
-        The <code>stem-nextauth</code> automatically integrates authentication to your app in a way that works for the
-        vast majority of users. If it doesn't work for you, then you can <b>eject</b> to take control over the
-        integration code so that you can <b>fully customize your app's authentication implementation</b>.
+        The <code>stem-nextauth</code> package automatically adds authentication to your app in a way that works for the
+        majority of users. If it doesn't work for you, then you can <b>eject</b> to take control over the integration
+        code so that you can <b>fully customize your app's authentication implementation</b>.
       </p>
       <blockquote>
         <p>
