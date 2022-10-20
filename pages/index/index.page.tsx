@@ -84,17 +84,18 @@ function Body() {
         </p>
         <p>
           In this example, with a normal app without Stem, you'd need to write glue code to tell the authentication code
-          how to send emails. We call this kind of boilerplate code "integration code".
+          how to send emails. We call this kind of code "integration code".
         </p>
         <p>
-          Stem Integrations (i.e. <code>stem-*</code> packages) contain such "integration code" which are designed to
-          work for the majority of users. But many users need customization; these users can "eject": the integration
-          code is moved from the `stem-*` package to the user's repository and the user has then full control over the
+          Stem Integrations (i.e. <code>stem-*</code> packages) contain such integration code, which are designed to
+          work for the majority of users. Users with special needs can "eject": the integration code is moved from the{' '}
+          <code>stem-*</code> package to the user's repository and, consequently, the user has full control over the
           integration code.
         </p>
         <p>
-          If a user were to eject all its <code>stem-*</code> packages, then the user completely removes Stem. (Although
-          only very few users need to go to that extreme.)
+          If a user were to eject all its <code>stem-*</code> packages, then the user completely removes Stem. While
+          only very few users need to go that extrem, users can gain as much control as needed (highly-technical
+          developers care about this).
         </p>
       </blockquote>
       <p>
