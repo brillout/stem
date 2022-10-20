@@ -93,7 +93,7 @@
     ]
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/pages/index/index.page.3cc2f7c3.js",
+    "file": "assets/pages/index/index.page.2131b389.js",
     "src": "pages/index/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -106,7 +106,7 @@
     ]
   },
   "pages/vision/index.page.tsx": {
-    "file": "assets/pages/vision/index.page.4e226055.js",
+    "file": "assets/pages/vision/index.page.9ee53d35.js",
     "src": "pages/vision/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -116,7 +116,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.26314fda.js",
+    "file": "assets/entry-client-routing.c218ae9d.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -132,7 +132,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.0a5111e9.js",
+    "file": "assets/entry-server-routing.3aa9d3cf.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.1.0/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
@@ -182,12 +182,12 @@
       "assets/index.eac70172.css"
     ]
   },
-  "index.css": {
-    "file": "assets/index.eac70172.css",
-    "src": "index.css"
-  },
   "IntegrationList.css": {
     "file": "assets/IntegrationList.7e6e2d84.css",
     "src": "IntegrationList.css"
+  },
+  "index.css": {
+    "file": "assets/index.eac70172.css",
+    "src": "index.css"
   }
 }
