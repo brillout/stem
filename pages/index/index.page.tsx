@@ -94,8 +94,7 @@ function Body() {
         </p>
         <p>
           If a user were to eject all its <code>stem-*</code> packages, then the user completely removes Stem. While
-          only very few users need to go that extreme, users can gain as much control as needed (highly-technical
-          developers care about this).
+          only very few users need to go that extreme, users can gain as much control as needed.
         </p>
       </blockquote>
       <p>

@@ -68,7 +68,7 @@ function Body() {
         </p>
         <p>
           We believe no-code interfaces should be extensions available on the Stem Marketplace (instead of being
-          built-in) &mdash; fostering competition and continuous improvements in no-code technology.
+          built-in), fostering competition and continuous improvements in no-code technology.
         </p>
       </blockquote>
 
@@ -83,8 +83,8 @@ function Body() {
 
       <h2>Pragmatic plan</h2>
       <p>
-        Stem is the first WordPress alternative that is liked and used by (highly-technical) developers. This means that
-        market is won quickly.
+        Stem is the first WordPress alternative that is liked and used by (highly-technical) developers. Because we are
+        the first, we win the market quickly.
       </p>
       <p>
         There is a unique opportunity to build, what we call, a low-code platform for developers. (While having no-code
