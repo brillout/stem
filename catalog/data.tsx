@@ -47,7 +47,7 @@ const data: IntegrationSpec[] = [
     logoUrl: ReactLogo,
     description: (
       <>
-        <ReactLink /> integration for <ViteLink />.
+        <ReactLink /> integration for <VpsLink />.
       </>
     ),
   },
@@ -56,7 +56,7 @@ const data: IntegrationSpec[] = [
     logoUrl: VueLogo,
     description: (
       <>
-        <VueLink /> integration for <ViteLink />.
+        <VueLink /> integration for <VpsLink />.
       </>
     ),
   },
