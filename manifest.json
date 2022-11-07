@@ -7,13 +7,13 @@
     "file": "assets/react.274eee9a.svg",
     "src": "catalog/logos/react.svg"
   },
-  "catalog/logos/NextAuth.png": {
-    "file": "assets/NextAuth.c0001ba4.png",
-    "src": "catalog/logos/NextAuth.png"
-  },
   "catalog/logos/react-admin.svg": {
     "file": "assets/react-admin.60dc15ff.svg",
     "src": "catalog/logos/react-admin.svg"
+  },
+  "catalog/logos/NextAuth.png": {
+    "file": "assets/NextAuth.c0001ba4.png",
+    "src": "catalog/logos/NextAuth.png"
   },
   "catalog/logos/prisma.png": {
     "file": "assets/prisma.502f639a.png",
@@ -64,7 +64,7 @@
       "_chunk-76216a9c.js"
     ],
     "css": [
-      "assets/index.eac70172.css"
+      "assets/index.33ac9747.css"
     ],
     "assets": [
       "assets/stem-with-text.ade4913e.svg"
@@ -89,7 +89,7 @@
     ]
   },
   "pages/index/index.page.tsx": {
-    "file": "assets/pages/index/index.page.c5bbb11d.js",
+    "file": "assets/pages/index/index.page.9aca08e6.js",
     "src": "pages/index/index.page.tsx",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -109,7 +109,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.2.2/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
-    "file": "assets/entry-client-routing.69b3643f.js",
+    "file": "assets/entry-client-routing.8231a841.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.2.2/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
     "isEntry": true,
     "imports": [
@@ -125,7 +125,7 @@
     ]
   },
   "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.2.2/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
-    "file": "assets/entry-server-routing.58aa7f1f.js",
+    "file": "assets/entry-server-routing.71684b07.js",
     "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.32_vite@3.2.2/node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
     "isEntry": true,
     "imports": [
@@ -172,7 +172,7 @@
     "src": "renderer/_default.page.server.tsx?extractStyles&lang.tsx",
     "isDynamicEntry": true,
     "css": [
-      "assets/index.eac70172.css"
+      "assets/index.33ac9747.css"
     ]
   },
   "IntegrationList.css": {
@@ -180,7 +180,7 @@
     "src": "IntegrationList.css"
   },
   "index.css": {
-    "file": "assets/index.eac70172.css",
+    "file": "assets/index.33ac9747.css",
     "src": "index.css"
   }
 }
