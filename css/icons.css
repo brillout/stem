@@ -1,9 +1,14 @@
-.seedling::before {
+span.seedling::before {
   content: '\1F331';
   font-size: 1.1em;
   font-family: emoji;
 }
-.construction::before {
+span.construction::before {
   content: '\1F6A7';
   font-size: 1.1em;
+}
+span.warning::before {
+  content: '\26A0';
+  font-size: 1.1em;
+  font-family: emoji;
 }

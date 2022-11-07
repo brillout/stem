@@ -13,8 +13,13 @@ blockquote p:last-of-type {
   margin-bottom: 0px;
 }
 blockquote p:first-of-type::before {
-  content: '\2139\FE0F';
   font-family: emoji;
   display: inline-block;
   padding-right: 0.3em;
+}
+blockquote:not(.no-emoji) p:first-of-type::before {
+  content: '\2139';
+}
+blockquote.warning p:first-of-type::before {
+  content: '\26A0';
 }
