@@ -86,7 +86,7 @@ function Body() {
       </p>
       <IntegrationList integrations={['stem-prisma', 'stem-gmail']} />
       <p>
-        All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
+        <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
       </p>
       <blockquote>
         <p>
@@ -98,7 +98,7 @@ function Body() {
         </p>
         <p>
           For example, if you don't like the UI of <code>/login</code> and <code>/signup</code> that's built into{' '}
-          <code>stem-nextauth</code>, you can eject and customize the UI.
+          <code>stem-nextauth</code>, you can eject and customize it.
         </p>
         <p>
           If you eject all your <code>stem-*</code> packages, then you completely remove Stem. While only very few users
