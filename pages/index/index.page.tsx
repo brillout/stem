@@ -81,11 +81,10 @@ function Body() {
 
       <p>
         For <code>stem-nextauth</code> to work, you also have to install <code>stem-prisma</code> (enabling{' '}
-        <code>stem-nextauth</code> to talk to your database), <code>stem-telefunc</code> (enabling{' '}
-        <code>stem-nextauth</code>'s frontend to talk to the backend), and <code>stem-gmail</code> (enabling{' '}
+        <code>stem-nextauth</code> to talk to your database), and <code>stem-gmail</code> (enabling{' '}
         <code>stem-nextauth</code> to send emails).
       </p>
-      <IntegrationList integrations={['stem-prisma', 'stem-telefunc', 'stem-gmail']} />
+      <IntegrationList integrations={['stem-prisma', 'stem-gmail']} />
       <p>
         All these <code>stem-*</code> pacakges integrate with each other automatically by using open standards.
       </p>
@@ -95,11 +94,11 @@ function Body() {
         </p>
         <p>
           The <code>stem-nextauth</code> package automatically adds authentication to your app in a way that works for
-          the majority of users, while you can eject parts that don't work for you.
+          the majority of users, while you can eject the parts that don't work out for you.
         </p>
         <p>
-          For example, if you don't like the UI of <code>/login</code> and <code>/signup</code> that is built into{' '}
-          <code>stem-nextauth</code>, then you can eject and customize the UI.
+          For example, if you don't like the UI of <code>/login</code> and <code>/signup</code> that's built into{' '}
+          <code>stem-nextauth</code>, you can eject and customize the UI.
         </p>
         <p>
           If you eject all your <code>stem-*</code> packages, then you completely remove Stem. While only very few users
@@ -108,8 +107,8 @@ function Body() {
       </blockquote>
       <h2>Conclusion</h2>
       <p>
-        Stem enables you to quickly get started with a full-fledged app. As you scale, and if you need special needs,{' '}
-        you can eject and take control over integration.
+        Stem enables you to quickly get started and, if you need special needs as you scale, you can eject and take
+        control over integration.
       </p>
     </div>
   )
